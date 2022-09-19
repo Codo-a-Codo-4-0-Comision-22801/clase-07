@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Button from './components/Button/Button';
+import Video from './components/Video/Video';
+import Audio from './components/Audio/Audio';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload. Hello world!
         </p>
         <Button />
+        <Video />
+        <Audio />
         <a
           className="App-link"
           href="https://reactjs.org"
